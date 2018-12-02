@@ -1,0 +1,108 @@
+// Learn cc.Class:
+//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/class.html
+//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/class.html
+// Learn Attribute:
+//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/reference/attributes.html
+//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/reference/attributes.html
+// Learn life-cycle callbacks:
+//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
+//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/life-cycle-callbacks.html
+
+cc.Class({
+    extends: cc.Component,
+
+    properties: {
+    },
+
+    // LIFE-CYCLE CALLBACKS:
+
+    onLoad () {
+        this.fragments = [
+            [
+                {
+                    abilityNumber:12345600,
+                    abilityName:"如来神掌",
+                    moveNumber:1,
+                    moveName:"佛光出现",
+                    moveDescribe:"",
+                    moveAnimationURL:""
+                },
+                {
+                    abilityNumber:12345600,
+                    abilityName:"如来神掌",
+                    moveNumber:2,
+                    moveName:"佛光出现",
+                    moveDescribe:"",
+                    moveAnimationURL:""
+                },
+                {
+                    abilityNumber:12345600,
+                    abilityName:"如来神掌",
+                    moveNumber:3,
+                    moveName:"佛光出现",
+                    moveDescribe:"",
+                    moveAnimationURL:""
+                },
+                {
+                    abilityNumber:12345600,
+                    abilityName:"如来神掌",
+                    moveNumber:4,
+                    moveName:"佛光出现",
+                    moveDescribe:"",
+                    moveAnimationURL:""
+                },
+                {
+                    abilityNumber:12345600,
+                    abilityName:"如来神掌",
+                    moveNumber:5,
+                    moveName:"佛光出现",
+                    moveDescribe:"",
+                    moveAnimationURL:""
+                },
+                {
+                    abilityNumber:12345600,
+                    abilityName:"如来神掌",
+                    moveNumber:6,
+                    moveName:"佛光出现",
+                    moveDescribe:"",
+                    moveAnimationURL:""
+                },
+                {
+                    abilityNumber:12345600,
+                    abilityName:"如来神掌",
+                    moveNumber:7,
+                    moveName:"佛光出现",
+                    moveDescribe:"",
+                    moveAnimationURL:""
+                },
+                {
+                    abilityNumber:12345600,
+                    abilityName:"如来神掌",
+                    moveNumber:8,
+                    moveName:"佛光出现",
+                    moveDescribe:"",
+                    moveAnimationURL:""
+                },
+                {
+                    abilityNumber:12345600,
+                    abilityName:"如来神掌",
+                    moveNumber:9,
+                    moveName:"佛光出现",
+                    moveDescribe:"",
+                    moveAnimationURL:""
+                },
+                {
+                    abilityNumber:12345600,
+                    abilityName:"如来神掌",
+                    moveNumber:10,
+                    moveName:"佛光出现",
+                    moveDescribe:"",
+                    moveAnimationURL:""
+                }
+            ]
+        ];
+    },
+
+
+    // update (dt) {},
+});

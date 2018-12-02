@@ -1,0 +1,43 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "openTreasure",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.26666666666666666,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": "1",
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "9116c49b-d707-4686-b5af-a0c6802fd568"
+            }
+          },
+          {
+            "frame": 0.08333333333333333,
+            "value": {
+              "__uuid__": "26722167-d854-4373-adc3-a9dba78401a7"
+            }
+          },
+          {
+            "frame": 0.16666666666666666,
+            "value": {
+              "__uuid__": "8710e902-79e5-4b21-825b-880b24828265"
+            }
+          },
+          {
+            "frame": 0.25,
+            "value": {
+              "__uuid__": "c76b02d8-835b-477c-89f8-917cd9fc5fd5"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}
